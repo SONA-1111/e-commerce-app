@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* //navbar css */
+.inputSearch{
+  background: transparent !important;
+  color: #ffffff !important;
+}
+.inputSearch::placeholder{
+  color: #ccc6c6;
+}
+.searches h1{
+  color: aqua;
+}
+.searches h6, p{
+  color: #ccc6c6;
+}
+.searches p:last-child{
+  color: green !important;
+}
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  background-color: #000000 !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+  color: #ffffff;
+}
+.nav-link:hover{
+  color: aqua;
+}
+.active {
+  color: aqua !important;
+  border-bottom: 2px solid aqua;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+.navbar-brand:hover{
+  color: aqua !important;
+}
+
+span.navbar-toggler-icon{
+  background-color: transparent !important; 
+  
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  vertical-align: middle; 
+}
+
+
+.dropdown-menu.show {
+  display: block;
+  background-color: black;
+}
+
+.dropdown-item{
+  color: #ffffff;
+}
+
+/*ccategories*/
+
+.btn{
+  border: 1px solid green;
+  color: green;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.btn:hover{
+  background-color: green;
+  color: #ffffff;
+}
+/* =============================
+==========footer============= */
+
+.footer {
+  color: white;
+  padding: 25px;
+  background: #000000; /* fallback for old browsers */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.footer h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2rem;
+}
+.footer a {
+  text-decoration: none;
+  color: aqua;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 2rem;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+/* ========================================= */
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+/* admin dahboard*/
+.list-group-item{
+  background: transparent !important;
+  color: rgb(33, 190, 33);
+  border:  none;
+  
+  margin-top: 20px;
+}
+.list-group-item:hover{
+  background-color: green !important;
+  color: #ffffff;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.admin h4{
+  color: aqua;
+}
+
+.card{
+  background-color: transparent;
+  margin-top: 2rem;
+}
+.card h3{
+  color: rgb(33, 190, 33);
+}
+
+/* create  category*/
+
+.createCat h1{
+  margin-top: 10px;
+  color: aqua;
+}
+.btn-danger{
+  border: none;
+  color: #ffffff;
+}
+.inputCat{
+  background: transparent;
+  color: #ffffff !important;
+}
+
+.inputCat::placeholder{
+  color: #afabab;
+}
+.inputCat:focus{
+  background: transparent;
+}
+.table{
+  margin-top: 20px;
+}
+.table th{
+  color: aqua;
+  padding: 5px;
+}
+.table td{
+  color: green;
+}
+table>:not(caption)>*>* {
+  border-bottom-width: 0px !important;
+}
+
+/*createProduct*/
+
+.createProduct h1{
+  color: aqua;
+  margin-top: 20px;
+}
+.createProduct{
+  background: transparent !important;
+}
+.createProduct .form-control {
+  color: #fff !important;
+  background-color: transparent !important;
+  
+}
+.createProduct .form-control::placeholder{
+  color: #a09e9e;
+}
+.createProduct .form-select{
+  background-color: transparent;
+}
+
+.allProducts .allProdwrap{
+  flex-wrap: wrap;
+}
+.allProdwrap .card-img-top{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card-title{
+  color: aqua;
+}
+.allProdwrap .card-text{
+  color: #afabab;
+}
+/* ordersProduct*/
+
+.ordersPro span.ant-select-selection-item{
+  color: green;
+}
+
+:where(.css-dev-only-do-not-override-ixblex).ant-select-single.ant-select-show-arrow .ant-select-selection-item, :where(.css-dev-only-do-not-override-ixblex).ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+  color: green;
+}
+:where(.css-dev-only-do-not-override-ixblex).ant-select-single.ant-select-open .ant-select-selection-item {
+  color: green;
+}
+
+.card-img-top{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.border.shadow {
+  margin-bottom: 1rem;
+}
+.dashboard h1{
+  color: aqua;
+  margin-top: 2rem;
+}
+.dashboard p:first-child{
+  color: aqua !important;
+}
+.dashboard p:last-child{
+  color: green !important;
+}
+.dashboard p{
+  color: #afabab !important;
+}
+.dashH4{
+  color: aqua !important;
+}
+@media only screen and (max-width:554px) {
+  
+  .inputSearch{
+    width: 160px;
+  }
+  .border.shadow.border {
+    border: none !important;
+}
+
+}

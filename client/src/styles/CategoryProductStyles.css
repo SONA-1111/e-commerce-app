@@ -1,0 +1,47 @@
+.category {
+  flex-wrap: wrap;
+  margin-top: 80px !important;
+}
+.category h4{
+  color: aqua;
+}
+.category h6{
+  color: #d8d1d1;
+}
+.category .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+}
+.category .card-title{
+  color: aqua;
+}
+.category .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.category .card-price {
+  color: green;
+  font-weight: bold;
+}
+.category button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.category .card-text {
+  color: #d8d1d1;
+}
+
+.category .card img:hover {
+  transform: scale(0.9);
+}
+
+.category .card-img-top {
+  height: 100% !important;
+}
